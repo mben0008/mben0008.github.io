@@ -1,0 +1,61 @@
+/* 1. Inheritance: Body styling */
+body {
+    font-family: Arial, sans-serif; /* You can pick any font family */
+    font-size: 18px;
+}
+
+/* 2. Select multiple elements: Header and Footer */
+header, footer {
+    background-color: #f0f0f0; /* Choose any color you like */
+    padding: 10px;
+}
+
+/* 3. Class selector: Site Title */
+.site-title {
+    color: #2a52be; /* Choose your favorite color */
+}
+
+/* 4. Id selector: Image Box Shadow */
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+/* 5. List of Hobbies: Squares and Nth-child */
+/* Assuming your hobbies are in a <ul> */
+ul {
+    list-style-type: square;
+}
+
+ul li:nth-child(odd) {
+    background-color: #e8e8e8;
+}
+
+/* 6. Styling the Navigation */
+nav ul {
+    list-style-type: none; /* Removes bullets */
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none; /* Removes underline */
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    display: inline-block;
+    color: black;
+}
+
+/* 7. Hover/Focus state */
+nav a:hover, nav a:focus {
+    background-color: #2a52be;
+    color: white;
+}
+
+/* Change this part in your code */
+article ul {
+    list-style-type: square;
+}
+
+article ul li:nth-child(odd) {
+    background-color: #e8e8e8;
+}
